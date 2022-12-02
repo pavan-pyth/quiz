@@ -1,0 +1,160 @@
+<!DOCTYPE.html>
+<html>
+<head>
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #4CAF50;}
+.quiz-box .option{
+    background: rgb(157, 246, 157);
+    color: rgb(6, 138, 28);
+    border-color: rgb(6, 138, 28);
+}
+
+</style>
+
+</head>
+<body>
+<h1 style="text-align:center";>Your Quiz Results</h1>
+<script>
+var questions = [
+    {
+    numb: 1,
+    question: "Who Was the 1st ODI captain for India?",
+    answer: "Ajit Wadekar",
+    options: [
+      "Ajit Wadekar",
+      "Bishen Singh Bedi",
+      "Nawab pataudi",
+      "Vinoo Mankad"
+    ]
+  },
+    {
+    numb: 2,
+    question: "Who Has Made The Fastset Test Century in Test Cricket?",
+    answer: "Vivian Richards",
+    options: [
+      "Sachin Tendulkar",
+      "Sahid Afridi",
+      "Virendra Sehwag",
+      "Vivian Richards"
+    ]
+  },
+    {
+    numb: 3,
+    question: "Which Team Has The Largest Successful Run Chase Record In ODIs?",
+    answer: "South Africa",
+    options: [
+      "England",
+      "South Africa",
+      "Australia",
+      "India"
+    ]
+  },
+    {
+    numb: 4,
+    question: "Which Bowler Had The Best Figures In a Test Match?",
+    answer: "Jim Laker",
+    options: [
+      "Muttiah Muralitharan",
+      "Bob Massie",
+      "Jim Laker",
+      "George Lohmann"
+    ]
+  },
+    {
+    numb: 5,
+    question: "Where Did India Play Its 1st One Day International Match?",
+    answer: "Headingley",
+    options: [
+      "Lords",
+      "Headingley",
+      "Taunton",
+      "The Oval"
+    ]
+  },
+  
+];
+
+</script>
+
+			
+			
+			
+				<Form action="/action_page.php">
+					<h3>1.Who Was the 1st ODI captain for India </h3>  
+					<input id="1" name="question1" type="radio"  />
+                                  <label style="color:green;" for="Ajit Wadekar">A.Ajit Wadekar <span>&#x2705;</span></label> <br/> 
+					<input name="question1" type="radio" />
+                                   <label>B.Bishen Singh Bedi </label><br /> 
+					<input  name="question1" type="radio" />
+                                  <label style="color:red;">C.Nawab pataudi<span>&#x2BBD; </label><br />
+                  <input name="question1" type="radio" /><label>D.Vinoo Mankad</label>
+              </form>
+				
+				<Form action="/action_page.php">
+				
+				
+					<h3>2.Who Has Made The Fastset Test Century in Test Cricket?</h3> 
+					<input name="question2" type="radio" />
+                                  <label>A.Sachin Tendulkar </label><br /> 
+              	              <input name="question2" type="radio" />
+                                   <label>B.Sahid Afridi </label><br /> 
+					<input  id="2" name="question2" type="radio" />
+                                  <label style="color:red;" for="2">C.Virendra Sehwag <span>&#x2BBD; </label><br/> 
+             		                <input name="question2" type="radio" />
+                                        <label style="color:green;">D.Vivian Richards <span>&#x2705;</span> </label>
+              </form>
+				
+				
+				<Form action="/action_page.php">
+					<h3>3.Which Team Has The Largest Successful Run Chase Record In ODIs?</h3> 
+					<input name="question3" type="radio" />
+                                   <label>A.England  </label><br /> 
+					<input id="3" name="question3" type="radio" />
+                                   <label style="color:green"; for="3">B.South Africa <span>&#x2705;</span> </label><br/> 
+					<input name="question3" type="radio" />
+                                    <label style="color:red;">C.Australia <span>&#x2BBD;</span> </label><br/> 
+					<input  name="question3" type="radio" />
+                                   <label>D.India </label>
+                </form>
+
+				<Form action="/action_page.php">
+					<h3>4.Which Bowler Had The Best Figures In a Test Match?</h3>  
+					<input id="4"  name="question4" type="radio" />
+                                 <label for="4">A.Muttiah Muralitharan </label><br /> 
+					<input name="question4" type="radio" />
+                                   <label style="color:red;" >B.Bob Massie <span>&#x2BBD;</span> </label><br /> 
+					<input name="question4" type="radio" />
+                                   <label style="color:green;">C.Jim Laker <span>&#x2705;</span> </label><br /> 
+					<input name="question4" type="radio" />
+                                   <label>D.George Lohmann </label>
+                </form>
+				
+				<Form action="/action_page.php">
+					<h3>5.Where Did India Play Its 1st One Day International Match?</h3>
+					<input id="5" name="question5" type="radio" />
+                                  <label for="5">A.Lords  </label> <br />
+					<input name="question5" type="radio" />
+                                    <label style="color:green;">B.Headingley <span>&#x2705;</span> </label> <br />
+					<input name="question5" type="radio" />
+                                    <label>C.Taunton </label> <br />
+					<input name="question5" type="radio" />
+                                     <label style="color:red;">D.The Oval <span>&#x2BBD;</span> </label>
+              </form>
+	<button class="button button1">Previous</button>
+<button class="button button1">Next</button>
+       			
+</body>
+</body>
+</html>
